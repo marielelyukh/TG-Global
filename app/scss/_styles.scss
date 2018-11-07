@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*==========================================
+
+					Fonts
+
+=============================================*/
+@font-face {
+  font-family: 'PT Sans';
+  src: url("../fonts/PTC75F.ttf");
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: 'PT Sans Regular';
+  src: url("../fonts/PTS55F.ttf");
+}
+/*==========================================
+
+					Custom CSS
+
+=============================================*/
+* {
+  box-sizing: border-box;
+}
+
