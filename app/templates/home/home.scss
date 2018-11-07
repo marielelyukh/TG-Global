@@ -201,16 +201,17 @@
       }
     }
     span{
-      position: absolute;
+      display: block;
+      position: relative;
       height: 50px;
-      top: 0;
+      top: -100px;
       left: -50%;
       width: 300px;
       transform: rotateZ(-90deg);
       z-index: 1;
-      font-size: 55px;
+      font-size: 70px;
       color: rgba(54, 228, 198, 0.15);
-      text-shadow: 0px 0px 20px rgba(52, 226, 104)
+      text-shadow: 0px 0px 20px rgba(54, 226, 104, 0.42);
     }
     .about-text {
       width: 60%;
@@ -594,6 +595,7 @@
       align-items: stretch;
       justify-content: space-around;
       padding: 20px 50px;
+
       h3 {
         text-transform: uppercase;
         color: rgb(48, 48, 48);
@@ -613,28 +615,17 @@
         }
       }
       span{
-        position: absolute;
+        display: block;
+        position: relative;
         height: 50px;
-        top: 0;
+        top: -100px;
         left: -50%;
         width: 300px;
         transform: rotateZ(-90deg);
         z-index: 1;
-        font-size: 55px;
+        font-size: 70px;
         color: rgba(54, 228, 198, 0.15);
-        text-shadow: 0px 0px 20px rgba(52, 226, 104)
-      }
-      .transform-about{
-        position: absolute;
-        height: 50px;
-        top: 0;
-        left: -50%;
-        width: 300px;
-        transform: rotateZ(-90deg);
-        z-index: 1;
-        font-size: 55px;
-        color: rgba(54, 228, 198, 0.15);
-        text-shadow: 0px 0px 20px rgba(52, 226, 104, 0.42);
+        text-shadow: 0px 0px 20px rgba(54, 226, 104, 0.42);
       }
       .about-text {
         width: 55%;
@@ -1231,7 +1222,7 @@
           left: -15px
         }
       }
-      span{
+      .about-back{
         position: absolute;
         height: 50px;
         top: 0;
@@ -1241,7 +1232,7 @@
         z-index: 1;
         font-size: 55px;
         color: rgba(54, 228, 198, 0.15);
-        text-shadow: 0px 0px 20px rgba(52, 226, 104)
+        text-shadow: 0px 0px 20px #36e4c6;
       }
       .about-text {
         width: 55%;
@@ -1648,7 +1639,7 @@
           left: -15px
         }
       }
-      span{
+      .about-back{
         position: absolute;
         height: 50px;
         top: 0;
@@ -1658,7 +1649,7 @@
         z-index: 1;
         font-size: 55px;
         color: rgba(54, 228, 198, 0.15);
-        text-shadow: 0px 0px 20px rgba(52, 226, 104)
+        text-shadow: 0px 0px 20px #36e4c6;
       }
       .about-text {
         width: 100%;
