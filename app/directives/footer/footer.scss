@@ -49,4 +49,40 @@
       height: 100px;
     }
   }
+  @media (max-width: 540px) {
+    .footer-body{
+      margin: auto;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      height: 100px;
+      .items{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .item{
+          margin: 0 10px 0 10px;
+          font-size: 12px;
+          font-weight: bold;
+          color: rgb(48, 48, 48);
+          cursor: pointer;
+          font-family: 'PT Sans';
+        }
+      }
+    }
+    .trade-mark{
+      margin: 10px 0 10px 10px;
+      font-size: 10px;
+      text-align: center;
+      font-weight: 500;
+      word-wrap: break-word;
+      width: 80%;
+      color: rgb(48, 48, 48);
+      font-family: 'PT Sans Regular';
+
+    }
+  }
 }
